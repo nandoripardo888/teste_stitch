@@ -1,0 +1,90 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Mobile
+/ios/Pods/
+/ios/Flutter/App.framework
+/ios/Flutter/engine.xcconfig
+/ios/Flutter/pod_runner.xcconfig
+/ios/Flutter/Generated.xcconfig
+/ios/.symlinks/
+/ios/Runner/GeneratedPluginRegistrant.*
+
+/android/key.properties
+/android/local.properties
+/android/.gradle/
+/android/app/build/
+/android/app/intermediates/
+/android/app/outputs/
+/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+/android/gradlew
+/android/gradlew.bat
+
+# Web
+/web/build/
+/web/dart_tool/
+/web/.dart_tool/
+
+# Windows
+/windows/build/
+/windows/flutter/ephemeral/
+/windows/flutter/generated_plugin_registrant.cc
+/windows/flutter/generated_plugin_registrant.h
+/windows/flutter/generated_plugins.cmake
+/windows/runner/Debug/
+/windows/runner/Release/
+/windows/runner/ipch/
+/windows/runner/GeneratedPlugins/
+/windows/runner/CMakeFiles/
+/windows/runner/cmake_install.cmake
+/windows/runner/CMakeCache.txt
+/windows/runner/project_generator.bat
+
+# Linux
+/linux/build/
+/linux/flutter/ephemeral/
+/linux/flutter/generated_plugin_registrant.cc
+/linux/flutter/generated_plugin_registrant.h
+/linux/flutter/generated_plugins.cmake
+/linux/runner/Debug/
+/linux/runner/Release/
+/linux/runner/CMakeFiles/
+/linux/runner/cmake_install.cmake
+/linux/runner/CMakeCache.txt
+
+# macOS
+/macos/build/
+/macos/Flutter/ephemeral/
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/macos/Flutter/Flutter-Debug.xcconfig
+/macos/Flutter/Flutter-Release.xcconfig
+/macos/Flutter/.build/
+/macos/Flutter/Generated.xcconfig
+/macos/Flutter/pod_runner.xcconfig
+/macos/Flutter/ephemeral.podspec
+/macos/.symlinks/
+/macos/Pods/
+/macos/Runner/GeneratedPluginRegistrant.swift
+/macos/Runner/Info.plist
+
+# IDEA
+.idea/
+*.iml
+atlassian-ide-plugin.xml
