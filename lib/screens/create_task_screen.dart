@@ -46,15 +46,6 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
     final theme = Theme.of(context);
     final isDarkMode = theme.brightness == Brightness.dark;
 
-    final inputDecoration = InputDecoration(
-      filled: true,
-      fillColor: isDarkMode ? Colors.grey[800] : Colors.grey[100],
-      border: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(12.0),
-        borderSide: BorderSide.none,
-      ),
-      contentPadding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
-    );
 
     return Scaffold(
       appBar: AppBar(
